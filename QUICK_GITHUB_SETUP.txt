@@ -1,0 +1,50 @@
+═══════════════════════════════════════════════════════════
+  QUICK GITHUB SETUP - 3 Simple Steps
+═══════════════════════════════════════════════════════════
+
+Your project is ready! Here's what to do:
+
+STEP 1: CREATE GITHUB REPO (On GitHub website)
+───────────────────────────────────────────────
+1. Go to: https://github.com/new
+2. Repository name: restaurant-reservation-agent
+3. Visibility: PRIVATE ⚠️
+4. Don't check any boxes
+5. Click "Create repository"
+
+STEP 2: PUSH YOUR CODE (In terminal)
+───────────────────────────────────────────────
+cd /home/user/restaurant-reservation-agent
+
+# Option A: Use the interactive script
+./PUSH_TO_GITHUB.sh
+
+# Option B: Manual commands
+git remote add origin https://github.com/YOUR_USERNAME/restaurant-reservation-agent.git
+git branch -M main
+git push -u origin main
+
+When prompted:
+- Username: Your GitHub username
+- Password: Use Personal Access Token (get from https://github.com/settings/tokens)
+
+STEP 3: ADD COLLABORATORS (On GitHub website)
+───────────────────────────────────────────────
+1. Go to your repo → Settings → Collaborators
+2. Add these three:
+   - kartik@sarvam.ai
+   - ashish@sarvam.ai
+   - aman@sarvam.ai
+3. Give "Read" access
+
+═══════════════════════════════════════════════════════════
+
+📁 Files Ready: 14 files, 919 lines of Python
+📋 Documentation: 7 comprehensive guides
+✅ All requirements met
+
+Next: Record demo video → Submit to Sarvam AI
+
+Need help? See GITHUB_PUSH_GUIDE.md for detailed instructions
+
+═══════════════════════════════════════════════════════════
